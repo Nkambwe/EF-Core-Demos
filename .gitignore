@@ -1,0 +1,78 @@
+#Project Ignore files
+
+#User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+*.[Cc]ache
+*_i.c
+*_p.c
+*.bak
+*.ncb
+*.log
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.meta
+*.vscode
+*.DS_Store
+[Tt]humbs.db
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+_ReSharper.*
+*.resharper
+Ankh.NoLoad
+
+# svn
+.svn
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages
+*.nupkg
+
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+# except build - used as an MSBuild target.
+!**/packages/build/
+
+# Roslyn cache directories
+*.ide/
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.Publish.xml
+
+# Windows Azure Build Output
+csx
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+#XUNIT
+*.VisualState.xml
+TestResult.xml
